@@ -1,0 +1,192 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+}
+.topmenu{
+    text-align: center;
+    justify-content: space-between;
+    padding:30px;
+    background-color: black;
+}
+.div1 a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding:20px;
+}
+#banner{
+    background-color:black;
+    height: 450px;
+}
+#div4{
+    padding-top: 200px;
+    font-size:xx-large;
+    color: white;
+      text-align:center;
+      justify-content: center;
+}
+#div5{
+    color: white;
+    text-align:center;
+     margin-top: 20px;
+}
+#bod{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+#btn1{
+background-color: gray;
+color: white;
+height: 30px;
+width: 150px;
+}
+#btn2{
+background-color: red;
+color: white;
+height:30px;
+width: 150px;
+}
+#btn3{
+background-color: black;
+color: white;
+height: 30px;
+width: 150px;
+}
+#parent{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    
+}
+#buttonpos{
+    padding-top: 20px;
+    padding-left:500px ;
+    padding-right:500px ;
+    display: flex;
+    justify-content:space-between;
+    border-radius: 10px;
+}
+#middle{
+    margin-top:30px ;
+    background-color: black;
+    height: 100px;
+    color: white;
+    text-align:center;
+    padding-top: 20px;
+}
+#line{
+    margin-top:30px ;
+    border-bottom: 2px solid rgb(205, 199, 199);
+}
+#awardparent{
+    display: flex ;
+    justify-content: center;
+    margin-top: -15px;
+}
+.awards{
+    font-size: larger;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width: 100px;
+}
+#awa1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    margin-top: 40px;
+}
+.a1{
+border: 1px solid black;
+border-radius: 10px;
+text-align: center;
+margin: 10px;
+width: 400px;
+}
+.a2{
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+    width: 400px;
+}
+.a3{
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    height: 100px;
+    width: 400px;
+}
+#end{
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    margin-top: 40px;
+}
+.yr{
+    border-right: 2px  solid rgb(255, 255, 255);
+text-align: center;
+margin: 10px;
+width: 400px;
+}
+.na{
+    border-right: 2px  solid rgb(255, 255, 255);
+    text-align: center;
+    margin: 10px;
+    width: 400px;
+}
+.by{
+    margin-top: 10px;
+    text-align: center;
+    height: 100px;
+    width: 400px;
+}
+#content{
+    background-color:white;
+    color: rgb(0, 0, 0);
+    display: grid;
+    grid-template-columns:auto auto;
+    justify-content: center;
+    margin-top: 40px;}
+ .m1{
+    text-align: center;
+    margin: 10px;
+    width: 300px;
+    }
+    .w1{
+        text-align: center;
+        margin: 10px;
+        width: 300px;
+    }
+    .modelbox{
+        font-size: larger;
+        background-color: white;
+        width: 70px;
+        margin-left: 120px;
+        margin-top: -13px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+    .worldbox{
+        font-size: larger;
+        background-color: white;
+        width: 100px;
+        margin-left: 120px;
+        margin-top: -13px;
+        padding-left: 3px;
+        padding-right: 10px;
+        
+    }
+    #models{
+        border-top: 1px solid black;
+    }
+    #world{
+        border-top: 1px solid black;
+    }
+    #content{
+        gap: 40px;
+    }
